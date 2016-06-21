@@ -21,7 +21,10 @@ import string
 import json
 import io
 
-searches = ['1760',
+searches = ['Marlowe', 'Fly Trap', 'the-cavalier']
+
+'''
+            ['1760',
             'Gamine',
             'Stones Throw',
             'Nopa',
@@ -31,6 +34,7 @@ searches = ['1760',
             'bitters bock and rye',
             'absinthe-brasserie-and-bar',
             'Lord Stanley']
+'''
 
 outfile = open('yelpOut.csv', 'wb')
 outfile.write('search term, name, url, phone, address, neighborhood, rating')
